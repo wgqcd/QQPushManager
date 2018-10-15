@@ -5,7 +5,7 @@
 //  Created by 魏国强 on 2018/10/15.
 //  Copyright © 2018 魏国强. All rights reserved.
 //
-
+#import <>
 #import "QQPushManager.h"
 @interface QQPushManager ()
 
