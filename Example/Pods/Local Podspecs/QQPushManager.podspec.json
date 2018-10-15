@@ -1,0 +1,27 @@
+{
+  "name": "QQPushManager",
+  "version": "0.1.0",
+  "summary": "A short description of QQPushManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/魏国强/QQPushManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "魏国强": "429172300@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/魏国强/QQPushManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QQPushManager/Classes/**/*",
+  "dependencies": {
+    "JPush": [
+
+    ]
+  }
+}

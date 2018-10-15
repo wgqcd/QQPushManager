@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'QQPushManager_Example' do
+#  pod 'QQPushManager', :path => '../'
+pod 'QQPushManager' :git => 'https://github.com/wgqcd/QQPushManager.git'
+  target 'QQPushManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end

@@ -1,0 +1,6 @@
+framework module QQPushManager {
+  umbrella header "QQPushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_QQPushManager_Example {
+  umbrella header "Pods-QQPushManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
