@@ -9,14 +9,18 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - QQPushManager (0.1.0)
+  - JCore (1.2.2)
+  - JPush (3.1.0):
+    - JCore (~> 1.2.0)
+  - QQPushManager (0.1.0):
+    - JPush
   - Specta (1.0.7)
 
 DEPENDENCIES:
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
-  - QQPushManager (from `../`)
+  - QQPushManager (from `https://github.com/wgqcd/QQPushManager.git`)
   - Specta
 
 SPEC REPOS:
@@ -24,19 +28,28 @@ SPEC REPOS:
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
+    - JCore
+    - JPush
     - Specta
 
 EXTERNAL SOURCES:
   QQPushManager:
-    :path: "../"
+    :git: https://github.com/wgqcd/QQPushManager.git
+
+CHECKOUT OPTIONS:
+  QQPushManager:
+    :commit: 0f4cd6e354b2a6a15776ad0de2d3fa71916d5d5a
+    :git: https://github.com/wgqcd/QQPushManager.git
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QQPushManager: 4f3bf165c08059b7f9fbe8e7fea5d2f4f1484652
+  JCore: f14c0549968a63c22e246a4875aa9d428446f373
+  JPush: 5921e25ad13e0386351079217b009f2039084eac
+  QQPushManager: 96bd0693a1b210c4dd78d525712004630904ddec
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: b45a9e65e042b7011156a5b81b98bbb9e405d192
+PODFILE CHECKSUM: fb84e7f406449bcc359ebfd55b58b6e947677ab9
 
 COCOAPODS: 1.5.3

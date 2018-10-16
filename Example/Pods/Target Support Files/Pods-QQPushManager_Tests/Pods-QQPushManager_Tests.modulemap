@@ -1,4 +1,4 @@
-framework module Pods_QQPushManager_Tests {
+module Pods_QQPushManager_Tests {
   umbrella header "Pods-QQPushManager_Tests-umbrella.h"
 
   export *
